@@ -38,8 +38,7 @@ class SubCategoryViewModelTest {
 
         assertEquals(
             listOf(
-                SubCategory(categoryId = 1, subCategoryId = 1, name = "Dog"),
-                SubCategory(categoryId = 2, subCategoryId = 1, name = "milk")
+                SubCategory(categoryId = 1, subCategoryId = 1, name = "Dog")
             ),
             viewModel.uiState.value.subCategories
         )
